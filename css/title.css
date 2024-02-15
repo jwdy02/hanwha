@@ -13,7 +13,7 @@
   animation-direction: reverse;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
 }
 @keyframes aniH2{
   0%{
@@ -32,7 +32,7 @@
   animation-direction: reverse;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+animation-timing-function: ease-in-out;
   animation-delay: 0.1s;
 }
 @keyframes aniP{
@@ -52,9 +52,9 @@
   gap: 50px;
   animation-name: aniUl;
   animation-direction: reverse;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
   animation-delay: 0.3s;
 }
 @keyframes aniUl{
