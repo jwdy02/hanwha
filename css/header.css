@@ -1,0 +1,89 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 1px solid #eee;
+}
+header .wrap {
+  max-width: 1903px;
+  height: 100px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  justify-items: end;
+  padding: 0 60px;
+}
+header .wrap h1 {  
+}
+header .wrap h1 a {  
+  display: block;
+  font-size: 0;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 352px;
+  height: 34px;
+}
+header .wrap ul.gnb {  
+  margin-left: 98px;
+}
+header .wrap ul.gnb li {
+  
+}
+header .wrap ul.gnb li a {
+  display: block;
+  padding: 40px 30px 39px;
+  font-size: 15px;
+}
+header .wrap div.sublist {  
+  display: none;
+}
+header .wrap .sublist div {
+  
+}
+header .wrap .sublist div h2 {
+  
+}
+header .wrap .sublist div ul.useguide {
+  
+}
+header .wrap .sublist div ul.useguide li {
+  
+}
+header .wrap .sublist div ul.useguide li a {
+  
+}
+header .wrap span.lang {  
+  padding: 0 10px;
+  color: #999;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  display: flex;
+}
+header .wrap span.lang a {
+  padding: 8px;
+  display: block;
+  font-size: 15px;
+}
+header .wrap span.lang a:nth-child(2):before{
+  content: "";
+  width: 1px;
+  height: 10px;
+  border-left: 1px solid #ddd;
+  position: absolute;
+  top: 45px;
+  right: 104px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

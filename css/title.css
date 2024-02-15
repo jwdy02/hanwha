@@ -1,0 +1,97 @@
+#title {  
+  height: 900px;
+}
+#title .wrap {
+  max-width: 1540px;
+  min-height: 900px;
+  text-align: center;
+  border: ;
+}
+#title .wrap h2 {
+  margin: 50px 32px;
+  animation-name: aniH2;
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes aniH2{
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+#title .wrap p {
+  line-height: 1.6;
+  margin-bottom: 70px;
+  animation-name: aniP;
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-delay: 0.1s;
+}
+@keyframes aniP{
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+#title .wrap p span{
+  font-size: 48px;
+}
+#title .wrap div ul {
+  gap: 50px;
+  animation-name: aniUl;
+  animation-direction: reverse;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-delay: 0.3s;
+}
+@keyframes aniUl{
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+#title .wrap ul li {
+  
+}
+#title .wrap div ul li  a {
+  width: 480px;
+  height: 427px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px 44px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#title .wrap div ul li:nth-child(1) a{
+    background-image: url(../img/business.jpg);
+}
+#title .wrap div ul li:nth-child(2) a{
+  background-image: url(../img/business-2.jpg);
+}
+#title .wrap div ul li:nth-child(3) a{
+  background-image: url(../img/business-3.jpg);  
+}

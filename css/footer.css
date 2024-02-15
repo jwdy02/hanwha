@@ -1,0 +1,67 @@
+footer {
+
+  height: 250px;
+}
+footer .wrap {
+  max-width: 1903px;
+  padding: 0 60px;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+footer .wrap h1 {
+  font-size: 0;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 360px;
+  height: 34px;
+  margin-bottom: 30px;
+}
+footer .wrap address {
+
+}
+footer .wrap .email{
+  
+}
+footer .wrap .email a{
+
+}
+footer .wrap select{
+  position: absolute;
+  right: 60px;
+  top: 34px;
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+footer .wrap .capy{
+  margin-top: 70px;
+  color: #767676;
+  font-style: italic;
+}
+footer .wrap .korea1{
+  position: absolute;
+  right: 161px;
+  top: 180px;
+  font-size: 0;
+  width: 100px;
+  height: 30px;
+  background-image: url(../img/footer1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer .wrap .korea2{
+  position: absolute;
+  right: 69px;
+  top: 180px;
+  font-size: 0;
+  width: 65px;
+  height: 30px;
+  background-image: url(../img/footer2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
