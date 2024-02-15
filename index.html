@@ -26,6 +26,20 @@
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/response.css">
+    <!-- 제이쿼리연결 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 스크립트 -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("aside ul li:nth-child(1)").addClass("side");
+            $("aside ul li").click(function(){
+                    $(this).addClass("side");
+                    $(this).siblings().removeClass("side");
+                    return false;
+                }
+            );
+        })
+    </script>
 </head>
 <body>
     <!-- 상단영역 -->
@@ -191,7 +205,7 @@
     <!-- 우측슬라이드아이콘 -->
     <aside>
         <ul>
-            <li><a href="" class="currentB eng">point</a></li>
+            <li><a href="">point</a></li>
             <li><a href="">VIDEO</a></li>
             <li><a href="">BUSINESS</a></li>
             <li><a href="">PRODUCTS</a></li>

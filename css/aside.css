@@ -1,28 +1,36 @@
 aside{
   position: fixed;
-  right: 20px;
+  right: 70px;
   top: calc(50% - 43px);
 }
 aside ul{
    
 }
+aside ul li{
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
 aside ul li:not(:last-child){
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 aside ul li a{
   font-size: 0;
-  width: 14px;
-  height: 14px;
   display: block;
-  background-color: #ccc;
-  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -2px;
 }
-aside ul li a:before{
+aside ul li a::after{
   content: "";
 }
-.currentB{
-  background-color:#ffb300; 
-}
-.currentW{
-  background-color:white; 
+
+.side {
+  border: 1px solid;
+  border-radius: 50%;
 }
